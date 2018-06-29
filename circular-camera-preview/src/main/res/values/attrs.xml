@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomBottomSheetBehavior">
+        <attr name="anchorPoint" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="PGCircularProgressBar">
+        <attr name="cpb_hasShadow" format="boolean" />
+        <attr name="cpb_progressColor" format="string" />
+        <attr name="cpb_backgroundColor" format="string" />
+        <attr name="cpb_title" format="string" />
+        <attr name="cpb_titleColor" format="string" />
+        <attr name="cpb_subtitle" format="string" />
+        <attr name="cpb_subtitleColor" format="string" />
+        <attr name="cpb_strokeWidth" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="ProgressWheel">
+        <attr name="pw_text" format="string" />
+        <attr name="pw_textColor" format="color" />
+        <attr name="pw_textSize" format="float" />
+        <attr name="barColor" format="color" />
+        <attr name="rimColor" format="color" />
+        <attr name="rimWidth" format="dimension" />
+        <attr name="spinSpeed" format="integer" />
+        <attr name="circleColor" format="color" />
+        <attr name="barWidth" format="dimension" />
+        <attr name="delayMillis" format="dimension" />
+        <attr name="contourColor" format="color" />
+        <attr name="contourSize" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="FiveNumberView">
+        <attr name="cp_number" format="string" />
+        <attr name="cp_image_contacts" format="boolean" />
+        <attr name="cp_editable" format="boolean" />
+        <attr name="cp_number_text" format="string" />
+        <attr name="cp_rest" format="boolean" />
+        <attr name="cp_delete" format="boolean" />
+        <attr name="cp_image_name" format="reference" />
+        <attr name="cp_divider" format="boolean" />
+        <attr name="cp_editText_string" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="ClearableEditTextCross">
+        <attr name="cc_hint" format="string" />
+        <attr name="cc_hint_color" format="color" />
+        <attr name="cc_text_color" format="color" />
+
+    </declare-styleable>
+
+
+    <declare-styleable name="CircularImageView">
+        <attr name="border" format="boolean" />
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="shadow" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_fill_color" format="color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="Theme">
+        <attr name="circularImageViewStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="FloatingLabel">
+
+        <!-- For Floating Hint -->
+        <attr name="floatHintText" format="string" />
+        <attr name="floatHintTextColorFocused" format="color" />
+        <attr name="floatHintTextColorUnFocused" format="color" />
+        <attr name="floatHintTextStyle">
+            <enum name="normal" value="0" />
+            <enum name="bold" value="1" />
+            <enum name="italic" value="2" />
+        </attr>
+        <attr name="floatHintTextGravity">
+            <enum name="top" value="0x30" />
+            <enum name="bottom" value="0x50" />
+            <enum name="left" value="0x03" />
+            <enum name="right" value="0x05" />
+        </attr>
+        <attr name="floatHintTextSize" format="integer" />
+        <attr name="floatHintTextTypeface" format="string" />
+        <attr name="floatHintTextBackground" format="color|reference" />
+        <!-- For actual Text -->
+
+        <attr name="text" format="string" />
+        <attr name="textColor" format="color" />
+        <attr name="textStyle">
+            <enum name="normal" value="0" />
+            <enum name="bold" value="1" />
+            <enum name="italic" value="2" />
+        </attr>
+        <attr name="textGravity">
+            <enum name="top" value="0x30" />
+            <enum name="bottom" value="0x50" />
+            <enum name="left" value="0x03" />
+            <enum name="right" value="0x05" />
+        </attr>
+        <attr name="textSize" format="integer" />
+        <attr name="textTypeface" format="string" />
+        <attr name="textBackground" format="color|reference" />
+        <attr name="isPassword" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="FastScrollRecyclerView">
+        <attr name="hideScrollbar" format="boolean" />
+        <attr name="showTrack" format="boolean" />
+        <attr name="trackColor" format="color" />
+        <attr name="handleColor" format="color" />
+        <attr name="bubbleColor" format="color" />
+        <attr name="bubbleTextColor" format="color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="MaterialSearchView">
+        <attr name="searchBackground" format="integer" />
+        <attr name="searchVoiceIcon" format="integer" />
+        <attr name="searchCloseIcon" format="integer" />
+        <attr name="searchBackIcon" format="integer" />
+        <attr name="searchSuggestionIcon" format="integer" />
+        <attr name="searchSuggestionBackground" format="integer" />
+        <attr name="android:hint" />
+        <attr name="android:textColor" />
+        <attr name="android:textColorHint" />
+        <attr name="android:inputType" />
+    </declare-styleable>
+    <declare-styleable name="SuccessView">
+        <attr name="svStrokeColor" format="color|reference" />
+        <attr name="svStrokeWidth" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleView">
+        <attr name="cv_color" format="color" />
+        <attr name="cv_radius" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomRatingBar">
+        <attr name="srb_borderColor" format="color" />
+        <attr name="srb_fillColor" format="color" />
+        <attr name="srb_backgroundColor" format="color" />
+        <attr name="srb_starBackgroundColor" format="color" />
+        <attr name="srb_pressedBorderColor" format="color" />
+        <attr name="srb_pressedFillColor" format="color" />
+        <attr name="srb_pressedBackgroundColor" format="color" />
+        <attr name="srb_pressedStarBackgroundColor" format="color" />
+        <attr name="srb_numberOfStars" format="integer" />
+        <attr name="srb_starSize" format="dimension" />
+        <attr name="srb_maxStarSize" format="dimension" />
+        <attr name="srb_starsSeparation" format="dimension" />
+        <attr name="srb_starBorderWidth" format="float" />
+        <attr name="srb_starCornerRadius" format="float" />
+        <attr name="srb_isIndicator" format="boolean" />
+        <attr name="srb_rating" format="float" />
+        <attr name="srb_stepSize" format="float" />
+        <attr name="srb_drawBorderEnabled" format="boolean" />
+        <attr name="srb_gravity" format="enum">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="CardStackView">
+        <attr name="visibleCount" format="integer" />
+        <attr name="swipeThreshold" format="float" />
+        <attr name="translationDiff" format="float" />
+        <attr name="scaleDiff" format="float" />
+        <attr name="stackFrom" format="enum">
+            <enum name="bottom" value="0" />
+            <enum name="top" value="1" />
+        </attr>
+        <attr name="elevationEnabled" format="boolean" />
+        <attr name="swipeEnabled" format="boolean" />
+        <attr name="swipeDirection" format="enum">
+            <enum name="freedom" value="0" />
+            <enum name="horizontal" value="1" />
+            <enum name="vertical" value="2" />
+        </attr>
+        <attr name="leftOverlay" format="reference" />
+        <attr name="rightOverlay" format="reference" />
+    </declare-styleable>
+
+    <!--floating action button attrs-->
+
+    <declare-styleable name="FloatingActionButton">
+        <attr name="fab_colorNormal" format="color" />
+        <attr name="fab_colorPressed" format="color" />
+        <attr name="fab_colorDisabled" format="color" />
+        <attr name="fab_colorRipple" format="color" />
+        <attr name="fab_showShadow" format="boolean" />
+        <attr name="fab_shadowColor" format="color" />
+        <attr name="fab_shadowRadius" format="dimension" />
+        <attr name="fab_shadowXOffset" format="dimension" />
+        <attr name="fab_shadowYOffset" format="dimension" />
+        <attr name="fab_size" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="mini" value="1" />
+        </attr>
+        <attr name="fab_showAnimation" format="reference" />
+        <attr name="fab_hideAnimation" format="reference" />
+        <attr name="fab_label" format="string" />
+        <attr name="fab_elevationCompat" format="dimension" />
+        <attr name="fab_progress_color" format="color" />
+        <attr name="fab_progress_backgroundColor" format="color" />
+        <attr name="fab_progress_indeterminate" format="boolean" />
+        <attr name="fab_progress_max" format="integer" />
+        <attr name="fab_progress" format="integer" />
+        <attr name="fab_progress_showBackground" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="FloatingActionMenu">
+        <attr name="menu_showShadow" format="boolean" />
+        <attr name="menu_buttonSpacing" format="dimension" />
+        <attr name="menu_labels_margin" format="dimension" />
+        <attr name="menu_labels_showAnimation" format="reference" />
+        <attr name="menu_labels_hideAnimation" format="reference" />
+        <attr name="menu_labels_paddingTop" format="dimension" />
+        <attr name="menu_labels_paddingLeft" format="dimension" />
+        <attr name="menu_labels_paddingRight" format="dimension" />
+        <attr name="menu_labels_paddingBottom" format="dimension" />
+        <attr name="menu_labels_padding" format="dimension" />
+        <attr name="menu_labels_textColor" format="reference|color" />
+        <attr name="menu_labels_textSize" format="dimension" />
+        <attr name="menu_labels_cornerRadius" format="dimension" />
+        <attr name="menu_labels_showShadow" format="boolean" />
+        <attr name="menu_labels_colorNormal" format="color" />
+        <attr name="menu_labels_colorPressed" format="color" />
+        <attr name="menu_labels_colorRipple" format="color" />
+        <attr name="menu_labels_position" format="enum">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+        <attr name="menu_icon" format="reference" />
+        <attr name="menu_animationDelayPerItem" format="integer" />
+        <attr name="menu_buttonToggleAnimation" format="reference" />
+        <attr name="menu_labels_singleLine" format="boolean" />
+        <attr name="menu_labels_ellipsize" format="enum">
+            <enum name="none" value="0" />
+            <enum name="start" value="1" />
+            <enum name="middle" value="2" />
+            <enum name="end" value="3" />
+            <enum name="marquee" value="4" />
+        </attr>
+        <attr name="menu_labels_maxLines" format="integer" />
+        <attr name="menu_fab_size" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="mini" value="1" />
+        </attr>
+        <attr name="menu_labels_style" format="reference" />
+        <attr name="menu_labels_customFont" format="string" />
+        <attr name="menu_shadowColor" format="color" />
+        <attr name="menu_shadowRadius" format="dimension" />
+        <attr name="menu_shadowXOffset" format="dimension" />
+        <attr name="menu_shadowYOffset" format="dimension" />
+        <attr name="menu_colorNormal" format="color" />
+        <attr name="menu_colorPressed" format="color" />
+        <attr name="menu_colorRipple" format="color" />
+        <attr name="menu_openDirection" format="enum">
+            <enum name="up" value="0" />
+            <enum name="down" value="1" />
+        </attr>
+        <attr name="menu_backgroundColor" format="color" />
+        <attr name="menu_fab_label" format="string" />
+        <attr name="menu_fab_show_animation" format="reference" />
+        <attr name="menu_fab_hide_animation" format="reference" />
+    </declare-styleable>
+
+    <!--Floating action attrsEnds-->
+
+    <declare-styleable name="Wheel">
+        <attr name="wheel_colors" format="reference" />
+        <attr name="wheel_stroke_color" format="color" />
+        <attr name="wheel_stroke_width" format="dimension" />
+        <attr name="wheel_items" format="reference" />
+        <attr name="wheel_text_size" format="dimension" />
+        <attr name="wheel_text_color" format="color" />
+        <attr name="wheel_arrow_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="MyTextView">
+        <attr name="font" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="LuckyWheelView">
+        <attr name="lkwBackgroundColor" format="color" />
+        <attr name="lkwCursor" format="reference" />
+        <attr name="lkwCenterImage" format="reference" />
+        <attr name="lkwTextColor" format="color" />
+    </declare-styleable>
+    <!--@akash   CICO-->
+
+    <declare-styleable name="SlidingUpPanelLayout">
+        <attr name="panelHeight" format="dimension" />
+        <attr name="shadowHeight" format="dimension" />
+        <attr name="paralaxOffset" format="dimension" />
+        <attr name="fadeColor" format="color" />
+        <attr name="flingVelocity" format="integer" />
+        <attr name="dragView" format="reference" />
+        <attr name="overlay" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="TextViewPlus">
+        <attr name="disableEnter" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="PickupDropoffLayout">
+        <attr name="pd_image_indicator" format="reference" />
+        <attr name="pd_text_hint" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="InsLoadingViewAttr">
+        <attr name="rotate_duration" format="integer" />
+        <attr name="circle_duration" format="integer" />
+        <attr name="start_color" format="color" />
+        <attr name="end_color" format="color" />
+        <attr name="status">
+            <enum name="loading" value="0" />
+            <enum name="clicked" value="1" />
+            <enum name="unclicked" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="CIVImage">
+        <attr name="c_border_width" format="dimension" />
+        <attr name="c_border_color" format="color" />
+        <attr name="c_border_overlay" format="boolean" />
+        <!-- {@deprecated Use civ_circlebackground_color instead.} -->
+        <attr name="c_fill_color" format="color" />
+        <attr name="c_circle_background_color" format="color" />
+    </declare-styleable>
+
+</resources>
